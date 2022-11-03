@@ -1,0 +1,125 @@
+/*for all files*/
+
+body {
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*for index php*/
+.main{
+  margin-left:200px;
+  margin-top: 10px;
+  float: left;
+  display:flex;
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+}
+
+.top_side{
+  background-color: #006296;
+  height: 100px;
+  width: 1200px;
+  margin: auto;
+}
+
+.middle{
+  display: flex;
+  height: auto;
+  width:1200px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.right_side{
+  float: right;
+  height: auto;
+  width: 700px;
+  margin: auto;
+}
+
+.left_side{
+  float: left;
+  height: auto;
+  width: 500px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.link{
+  text-decoration:none;
+  color: blue;
+}
+
+form{
+  text-align: center;
+  width: 400px;
+  border: 2px solid #ccc;
+  margin: 80px auto;
+  padding: 50px;
+  background: #D7F0ED;
+  border-radius: 15px;
+}
+
+.middle_form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.normal{
+  color: #1E90FF;
+  float: left;
+}
+
+h2{
+  color: #1E90FF;
+}
+
+.red{
+  float: right;
+  color: #FF0000;
+}
+
+label{
+  float: left;
+  padding: 10px;
+  color: #191970;
+  font-size:20px;
+}
+
+.button1{
+  background: #4169E1;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+
+.button1:hover{
+  opacity: .7;
+}
+
+.button2{
+  float: right;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin:30px 30px;
+  border: none;
+}
+
+.button2:hover{
+  opacity: .7;
+}
+
+.bottom_side{
+  background-color: #006296;
+  height: 100px;
+  width: 1200px;
+  margin: auto;
+}
