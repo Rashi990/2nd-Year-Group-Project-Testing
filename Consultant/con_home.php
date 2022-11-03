@@ -12,7 +12,7 @@ if (isset($_SESSION['con_id']) && isset($_SESSION['username'])) {
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Hello <?php echo $_SESSION['con_name']; ?></h1>
+  <h1>Hello <?php echo $_SESSION['con_f_name']; ?></h1>
   <a href="logout.php" class="logout">Logout</a>
 </body>
 </html>
