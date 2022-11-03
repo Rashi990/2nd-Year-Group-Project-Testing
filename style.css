@@ -1,0 +1,102 @@
+/*for all files*/
+
+body {
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*for index php*/
+.main{
+  margin-left:200px;
+  margin-top: 10px;
+  float: left;
+  display:flex;
+  background-color: #D2B48C;
+  width: auto;
+  height: auto;
+}
+
+.left_side{
+  height: auto;
+  width: 800px;
+  margin: auto;
+}
+
+.right_side{
+  height: auto;
+  width: 500px;
+  margin: auto;
+}
+
+form{
+  text-align: center;
+  width: 600px;
+  border: 2px solid #ccc;
+  margin: auto;
+  padding: 30px;
+  background: #FFEFD5;
+  border-radius: 15px;
+}
+
+label{
+  float: left;
+  padding: 10px;
+  color: #191970;
+  font-size:20px;
+}
+
+input{
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.pass_div placeholder{
+  color: #ADD8E6;
+}
+
+.button1{
+  background: #4169E1;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+
+.button1:hover{
+  opacity: .7;
+}
+
+.link{
+  text-decoration:none;
+  color: blue;
+}
+
+.error{
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+/*Logout page*/
+.logout{
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.logout.hover{
+  opacity: .7;
+}
