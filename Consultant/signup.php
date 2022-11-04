@@ -2,7 +2,7 @@
 <html>
 <head>
     <!--give page title-->
-    <title>LOGIN</title>
+    <title>Register</title>
     <!--attach css file-->
     <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
@@ -17,7 +17,6 @@
         <button type="button" name="button" class="button2"><a href="login.php" class="link">Login</a></button>
       </div>
     </div>
-    <br>
     <div class="middle_side">
       <!--left side of main frame-->
       <div class="left_side">
@@ -33,14 +32,14 @@
             <h2>*For the safty of the patients, we are only accept members between 18 and 40 because blood stem cells from younger donors provide more suvival-rate.</h2>
           </div>
         </form>
-        <form class="middle_form" action="signup2.php" method="post">
+        <form class="middle_form" method="post">
           <!--selection-->
           <div class="middle_q">
             <label><h2 class="normal">Which discribes your age?</h2><h2 class="red">*</h2></label>
           </div>
           <div class="middle_a">
             <!--first button-->
-            <button class="button1" type="submit" name="signin">Between 18 and 40</button>
+            <button class="button1" type="submit" name="signin" action="signup2.php">Between 18 and 40</button>
             <!--second button-->
             <button class="button1" type="submit" name="signin">41 or Older</button>
           </div>
