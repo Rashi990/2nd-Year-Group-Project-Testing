@@ -12,9 +12,9 @@
     <!--left side of main frame-->
     <div class="left_side">
         <!--title-->
-        <h1 align=center>WELCOME BACK</h1>
+        <h1 align=center>WELCOME BACK!</h1>
         <!--subtitle-->
-        <h3 align=center>Welcome back! Please enter your details.</h3>
+        <h3 align=center>Please enter your details.</h3>
         <br>
       <!--create a form-->
       <form class="login_form" action="login.php" method="post">
@@ -39,7 +39,7 @@
       <button class="button1" type="submit" name="signin">Sign in</button>
       <!--create account link-->
       <div class="account">
-        <h5>Don't have an account? <a href="" class="link">create account</a></h5>
+        <h5>Don't have an account? <a href="signup.php" class="link">create account</a></h5>
       </div>
       </form>
       <!--signature-->
@@ -47,7 +47,7 @@
     <!--right side of main frame-->
     <div class="right_side">
       <!--image file-->
-      <img src="https://images.pexels.com/photos/8798942/pexels-photo-8798942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image doesn't load. Please refreash ypur browser.">
+      <img src="https://images.pexels.com/photos/8798942/pexels-photo-8798942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image doesn't load. Please refreash your browser.">
     </div>
   </div>
 </body>
