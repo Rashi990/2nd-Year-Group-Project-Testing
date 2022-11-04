@@ -12,7 +12,7 @@ body {
   margin-top: 10px;
   float: left;
   display:flex;
-  background-color: #ffffff;
+  background-color:	#D8BFD8;
   width: auto;
   height: auto;
   flex-direction: column;
@@ -29,7 +29,7 @@ body {
   display: flex;
   height: auto;
   width:1200px;
-  margin: auto;
+  margin: 0px;
   flex-direction: column;
 }
 
@@ -44,7 +44,7 @@ body {
   float: left;
   height: auto;
   width: 500px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   margin-left: 15px;
 }
 
@@ -57,7 +57,7 @@ form{
   text-align: center;
   width: 400px;
   border: 2px solid #ccc;
-  margin: 80px auto;
+  margin: 50px auto;
   padding: 50px;
   background: #D7F0ED;
   border-radius: 15px;
